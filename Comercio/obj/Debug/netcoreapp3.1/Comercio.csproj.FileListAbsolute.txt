@@ -1,0 +1,11 @@
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.exe
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.deps.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.runtimeconfig.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.runtimeconfig.dev.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.dll
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\bin\Debug\netcoreapp3.1\Comercio.pdb
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\obj\Debug\netcoreapp3.1\Comercio.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\obj\Debug\netcoreapp3.1\Comercio.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\obj\Debug\netcoreapp3.1\Comercio.AssemblyInfo.cs
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\obj\Debug\netcoreapp3.1\Comercio.dll
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Comercio\obj\Debug\netcoreapp3.1\Comercio.pdb

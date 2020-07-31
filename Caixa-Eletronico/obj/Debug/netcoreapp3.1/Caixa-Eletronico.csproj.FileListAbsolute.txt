@@ -1,0 +1,11 @@
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.exe
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.deps.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.runtimeconfig.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.runtimeconfig.dev.json
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.dll
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\bin\Debug\netcoreapp3.1\Caixa-Eletronico.pdb
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\obj\Debug\netcoreapp3.1\Caixa-Eletronico.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\obj\Debug\netcoreapp3.1\Caixa-Eletronico.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\obj\Debug\netcoreapp3.1\Caixa-Eletronico.AssemblyInfo.cs
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\obj\Debug\netcoreapp3.1\Caixa-Eletronico.dll
+C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Caixa-Eletronico\obj\Debug\netcoreapp3.1\Caixa-Eletronico.pdb
