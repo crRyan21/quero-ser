@@ -1,31 +1,46 @@
 ﻿using System;
 
 namespace Comercio {
-    class Program {
-        static void Main (string[] args) {
-            float[] num = new float[100];
-                float one = 0;
-                float two = 0;
-                float five = 0;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string produto;
+            double valorProduto = 0;
 
-            for (int i = 0; i < num.Length; i++) {
+            double valorPagamento = 0;
 
-                System.Console.WriteLine ("Digite o valor dos produtos e aperte 0 para calcular o preço:");
-                two = float.Parse (Console.ReadLine ());
+            double troco = 0;
 
-                num[i] += two;
-                System.Console.WriteLine(num[i]);
-                five = one += num[i];
-    
-                if (two == 0) {
+            bool pagar = true;
 
-                    System.Console.WriteLine ($"o valor total R${five} coloquei o valor da nota do cliente");
-                    float four = float.Parse (Console.ReadLine ());
+            while (pagar || valorProduto > 0)
+            {
+                Console.WriteLine("Informar valor do Produto R$:");    
+                produto = Console.ReadLine();
+                if  (produto == "")
+                {
+                    pagar = false;
+                }
+                else
+                {
+                    valorProduto = Convert.ToDouble(produto);
+                }
+                
 
-                    float troco = four -= five;
+                if (valorProduto > 0 )
+                {
+                    Console.WriteLine("Informar valor do pagamento R$:");
+                    valorPagamento = Convert.ToDouble(Console.ReadLine());
 
-                    System.Console.WriteLine ($"valor para retornar ao cliente R${troco}");
-
+                    troco = valorPagamento - valorProduto;
+                    Console.WriteLine($"Valor do troco R$: {troco}");
+                    valorProduto = 0;
+                    valorPagamento = 0;
+                }
+                else
+                {
+                    pagar = false;
                 }
             }
         }

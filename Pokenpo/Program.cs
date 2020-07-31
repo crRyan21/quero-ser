@@ -1,61 +1,72 @@
 ﻿using System;
 
 namespace Pokenpo {
-    class Program {
-        static void Main (string[] args) {
-            int jogador1 = 0;
-            string sair = "";
-            do {
-                Console.Clear ();
-                System.Console.WriteLine ("==========================");
-                System.Console.WriteLine ("        Pokenpo");
-                System.Console.WriteLine ("==========================");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1 Pedra
+            // 2 Papel
+            // 3 Tesoura
+            int playerOne = 0;
+            int playerTwo = 0;
+            var array = new bool?[3, 3];
 
-                Console.WriteLine ("Jogador 1 coloquei sua jogada digite: ");
-                System.Console.WriteLine ("1 para pedra");
-                System.Console.WriteLine ("2 para tesoura");
-                System.Console.WriteLine ("3 para papel");
+            array[0, 1] = false;
+            array[0, 2] = true;
 
-                jogador1 = int.Parse (Console.ReadLine ());
-                Console.ReadLine ();
+            array[1, 0] = true;
+            array[1, 2] = false;
 
-                Console.WriteLine ("Jogador 2 coloquei sua jogada digite: ");
-                System.Console.WriteLine ("1 para pedra");
-                System.Console.WriteLine ("2 para tesoura");
-                System.Console.WriteLine ("3 para papel");
+            array[2, 0] = false;
+            array[2, 1] = true;
 
-                int jogador2 = int.Parse (Console.ReadLine ());
+            do
+            {
+                try
+                {
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("Bem vindo ao jogo de Jokenpo!");
+                    Console.WriteLine("Escolha seu objeto:");
+                    Console.WriteLine("1 => Pedra");
+                    Console.WriteLine("2 => Papel");
+                    Console.WriteLine("3 = Tesouro");
 
-                if (jogador1 == 1 && jogador2 == 1 || jogador1 == 2 && jogador2 == 2 || jogador1 == 3 && jogador2 == 3) {
-                    System.Console.WriteLine ("Essa partida deu empate jogue denovo!!!");
-                } else if (jogador1 == 2 && jogador2 == 1 || jogador1 == 1 && jogador2 == 2) {
-                    if (jogador1 == 1) {
-                        System.Console.WriteLine ("Jogador 1 ganhou essa partida!!!");
-                    } else {
-                        System.Console.WriteLine ("Jogador 2 ganhou essa partida!!!");
+                    Console.WriteLine("Jogador 1 digite o número do objeto que deseja utilizar: ");
+                    playerOne = Int32.Parse(Console.ReadLine());
 
+                    Console.WriteLine("Jogador 2 digite o número do objeto que deseja utilizar: ");
+                    playerTwo = Int32.Parse(Console.ReadLine());
+
+                    Console.WriteLine();
+                    switch (array[playerOne - 1, playerTwo - 1])
+                    {
+                        case true:
+                            Console.WriteLine("Parabéns Jogador 1 você é o vencedor!");
+                            break;
+                        case false:
+                            Console.WriteLine("Parabéns Jogador 2 você é o vencedor!");
+                            break;
+                        default:
+                            Console.WriteLine("Tivemos um empate, sem vencedor.");
+                            break;
                     }
-                } else if (jogador1 == 3 && jogador2 == 2 || jogador1 == 2 && jogador2 == 3) {
-                    if (jogador1 == 2) {
-                        System.Console.WriteLine ("Jogador 1 ganhou essa partida!!!");
-                    } else {
-                        System.Console.WriteLine ("Jogador 2 ganhou essa partida!!!");
-
-                    }
-                } else if (jogador1 == 3 && jogador2 == 1 || jogador1 == 1 && jogador2 == 3) {
-                    if (jogador1 == 3) {
-                        System.Console.WriteLine ("Jogador 1 ganhou essa partida!!!");
-                    } else {
-                        System.Console.WriteLine ("Jogador 2 ganhou essa partida!!!");
-
-                    }
+                    Console.WriteLine();
+                    Console.WriteLine("Deseja jogar uma nova partida:");
+                    Console.WriteLine("1 => Sim");
+                    Console.WriteLine("2 => Não");
+                }
+                catch (System.Exception)
+                {
+                    Console.WriteLine("Algo aconteceu de errado!");
+                    Console.WriteLine("Deseja jogar uma nova partida:");
+                    Console.WriteLine("1 => Sim");
+                    Console.WriteLine("2 => Não");
                 }
 
-                System.Console.WriteLine ("desejar sair digite 0 para sair ou entre para continuar");
-                sair = Console.ReadLine ();
+            } while (Console.ReadLine() == "1");
 
-            } while (sair != "0");
         }
-
     }
 }

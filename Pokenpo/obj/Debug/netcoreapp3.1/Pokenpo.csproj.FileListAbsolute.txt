@@ -9,3 +9,16 @@ C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Pokenpo\obj\Debug\n
 C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.AssemblyInfo.cs
 C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.dll
 C:\Users\henri\Desktop\-Intelitrader-3-Desafios--DojoPuzzles\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.pdb
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.exe
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.deps.json
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.runtimeconfig.json
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.runtimeconfig.dev.json
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.dll
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\bin\Debug\netcoreapp3.1\Pokenpo.pdb
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.csprojAssemblyReference.cache
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.AssemblyInfoInputs.cache
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.AssemblyInfo.cs
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.csproj.CoreCompileInputs.cache
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.dll
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.pdb
+C:\Users\46864796817\Downloads\-Intelitrader-3-Desafios--DojoPuzzles-master\Pokenpo\obj\Debug\netcoreapp3.1\Pokenpo.genruntimeconfig.cache
